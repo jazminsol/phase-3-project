@@ -10,9 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_13_175634) do
+ActiveRecord::Schema.define(version: 2021_07_14_174816) do
+
+  create_table "foundations", force: :cascade do |t|
+    t.string "name"
+    t.integer "price"
+  end
+
+  create_table "lash_sets", force: :cascade do |t|
+    t.string "name"
+    t.integer "price"
+  end
 
   create_table "lip_glosses", force: :cascade do |t|
+    t.string "name"
+    t.integer "price"
   end
 
   create_table "makeup_bags", force: :cascade do |t|
@@ -25,6 +37,7 @@ ActiveRecord::Schema.define(version: 2021_07_13_175634) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.integer "makeup_bag_id"
+    t.date "birthday"
   end
 
 end
