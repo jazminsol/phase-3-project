@@ -1,3 +1,5 @@
+
+ 
 puts "Deleting makeupbag/items data .."
 
 
@@ -26,7 +28,6 @@ f14 = Foundation.create(name: "Espresso" ,price:30 )
 f15 = Foundation.create(name: "Sunkissed " ,price: 30)
 
 puts "creating lashsets....."
-
 lash1 =Lash_set.create(name:"Spoil Me", price:11)
 lash2 =Lash_set.create(name:"Date Me", price:12)
 lash3 =Lash_set.create(name:"Hire Me", price:10)
@@ -42,6 +43,9 @@ lash12 =Lash_set.create(name:"Meet the Inlaws", price:8)
 lash13 =Lash_set.create(name:"Gym Flow", price:5)
 lash14 =Lash_set.create(name:"Fashion Icon", price:15)
 lash15 =Lash_set.create(name:"Birthday Baddie", price:15)
+
+
+
 
 puts "Creating lip_gloss data.. "
 lg1 = Lip_gloss.create(name: "Pink Glitter", price: 15)
