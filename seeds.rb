@@ -1,4 +1,5 @@
 
+ 
 puts "Deleting makeupbag/items data .."
 User.destroy_all
 Lash_set.destroy_all
@@ -48,6 +49,7 @@ lash12 =Lash_set.create(name:"Meet the Inlaws", price:8)
 lash13 =Lash_set.create(name:"Gym Flow", price:5)
 lash14 =Lash_set.create(name:"Fashion Icon", price:15)
 lash15 =Lash_set.create(name:"Birthday Baddie", price:15)
+
 
 
 
