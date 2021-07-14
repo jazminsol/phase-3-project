@@ -1,19 +1,16 @@
 
  
 puts "Deleting makeupbag/items data .."
+
+
 User.destroy_all
 Lash_set.destroy_all
 Lip_gloss.destroy_all
 Makeup_bag.destroy_all
 Foundation.destroy_all
 
-
-
-
-
-
-
 puts "creating foundation... "
+
 f1 = Foundation.create(name: "Porcelain Doll" ,price:30)
 f2 = Foundation.create(name: "Ivory" ,price:30 )
 f3 = Foundation.create(name: "Sand Storm" ,price:30 )
@@ -29,9 +26,6 @@ f12 = Foundation.create(name: "Mahogany" ,price:30 )
 f13 = Foundation.create(name: "Chesnut" ,price: 30)
 f14 = Foundation.create(name: "Espresso" ,price:30 )
 f15 = Foundation.create(name: "Sunkissed " ,price: 30)
-
-
-
 
 puts "creating lashsets....."
 lash1 =Lash_set.create(name:"Spoil Me", price:11)
