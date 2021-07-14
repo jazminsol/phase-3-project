@@ -1,16 +1,12 @@
 
-<<<<<<< HEAD
 puts "Deleting makeupbag/user data .."
-=======
 puts "Deleting makeupbag/items data .."
->>>>>>> main
 User.destroy_all
 Lash_set.destroy_all
 Lip_gloss.destroy_all
 Makeup_bag.destroy_all
 Foundation.destroy_all
 
-<<<<<<< HEAD
 
 
 
@@ -56,7 +52,6 @@ lash15 =Lash_set.create(name:"Birthday Baddie", price:)
 
 
 
-=======
 puts "Creating lip_gloss data.. "
 lg1 = Lip_gloss.create(name: "Pink Glitter", price: 15)
 lg2 = Lip_gloss.create(name: "Gloss Up", price: 7)
@@ -90,4 +85,3 @@ u8 = User.create(name: "Rene", makeup_bag_id: makeup_bag_id, date: birthday)
 u9 = User.create(name: "Ariel", makeup_bag_id: makeup_bag_id, date: birthday)
 u10 = User.create(name: "Sade", makeup_bag_id: makeup_bag_id, date: birthday)
 u11 = User.create(name: "Jan", makeup_bag_id: makeup_bag_id, date: birthday)
->>>>>>> main
