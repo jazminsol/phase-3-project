@@ -66,17 +66,17 @@ lg20 = Lip_gloss.create(name: "Lip Magic", price: 9)
 
 puts "Creating user data.. "
 
-u1 = User.create(name: "Bri", birthday: Date.new(2001,3,2))
-u2 = User.create(name: "Jaz", birthday: Date.new (1973,4,22)
-u3 = User.create(name: "Brooklyn", birthday: Date.new (1998,12,8)
-u4 = User.create(name: "Justice", birthday:  Date.new(2001,11,27)
-u5 = User.create(name: "Marion", birthday: Date.new (1984,1,5)
-u6 = User.create(name: "Cleo", birthday: Date.new (1992,10,13)
-u7 = User.create(name: "Frankie", birthday: Date.new (1997,6,11)
-u8 = User.create(name: "Rene", birthday:Date.new (1984,3,28)
-u9 = User.create(name: "Ariel", birthday:Date.new (1996,12,27)
-u10 = User.create(name: "Sade", birthday: Date.new (1975,9,10)
-u11 = User.create(name: "Jan", birthday: Date.new (2000,6,3)
+u1 = User.create(name: "Bri", birthday: Date.new(2001,3,2),password:"iluvmom23")
+u2 = User.create(name: "Jaz", birthday: Date.new(1973,4,22),password:"livingmybestLife")
+u3 = User.create(name: "Brooklyn", birthday: Date.new(1998,12,8),password:"theGoat")
+u4 = User.create(name: "Justice", birthday:  Date.new(2001,11,27),password:"cookiesandcreme")
+u5 = User.create(name: "Marion", birthday: Date.new(1984,1,5),password:"batmanlivesinGotham")
+u6 = User.create(name: "Cleo", birthday: Date.new(1992,10,13),password:"pinkiseverything")
+u7 = User.create(name: "Frankie", birthday: Date.new(1997,6,11),password:"beachhousedreaming")
+u8 = User.create(name: "Rene", birthday:Date.new(1984,3,28),password:"rainx3")
+u9 = User.create(name: "Ariel", birthday:Date.new(1996,12,27),password:"thelilmermaid")
+u10 = User.create(name: "Sade", birthday: Date.new(1975,9,10),password:"makeuponfleek")
+u11 = User.create(name: "Jan", birthday: Date.new(2000,6,3),password:"janesSecret")
 
 puts "creating Makeupbags..."
 

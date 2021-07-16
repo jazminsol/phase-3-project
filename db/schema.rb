@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_14_174816) do
+ActiveRecord::Schema.define(version: 2021_07_15_174439) do
 
   create_table "foundations", force: :cascade do |t|
     t.string "name"
@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 2021_07_14_174816) do
     t.string "name"
     t.integer "makeup_bag_id"
     t.date "birthday"
+    t.string "password"
   end
 
 end

@@ -5,3 +5,11 @@ gem "sinatra-activerecord"
 gem "sqlite3"
 gem "pry"
 gem "require_all"
+
+ gem "tty-prompt"
+
+ gem 'rack'
+gem 'rack-test'
+gem 'rspec'
+gem 'rack-cors'
+gem 'shotgun'
